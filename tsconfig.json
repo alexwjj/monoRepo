@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "baseUrl": "./packages",
+    "paths": {
+      "@alexwjj/*": ["*/src"]
+    },
+  },
+  "include": ["packages/*"],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
