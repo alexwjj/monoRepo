@@ -1,13 +1,15 @@
 {
-  "name": "blog",
-  "version": "0.0.1",
-  "main": "index.js",
-  "author": "alexjj",
+  "name": "@alexwjj/blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
   "license": "MIT",
-  "private": true,
   "dependencies": {
-    "@alexjj/ui": "^0.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@alexwjj/ui": "^1.0.0",
+    "@alexwjj/utils": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
