@@ -6,6 +6,7 @@
   "homepage": "https://github.com/alexwjj/monoRepo#readme",
   "license": "ISC",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,7 +22,10 @@
     "url": "git+https://github.com/alexwjj/monoRepo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "tsc -b --watch",
+    "test": "echo success",
+    "clean": "rm -f /lib",
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/alexwjj/monoRepo/issues"
